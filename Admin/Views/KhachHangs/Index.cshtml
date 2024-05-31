@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Admin.Models.KhachHang>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div style="width: 500px;">
+    <h1>Danh sách khách hàng</h1>
+
+    <p>
+        <a asp-action="Create">Thêm khách hàng</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Họ và tên
+                </th>
+                <th>
+                    Ngày sinh
+                </th>
+                <th>
+                    Địa chỉ
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Std
+                </th>
+                <th>
+                    Giấy phép
+                </th>
+                <th>
+                    Tích điểm
+                </th>
+                <th>
+                    Mật khẩu
+                </th>
+                <th>
+                    Loại khách hàng
+                </th>
+                <th>
+                    Mã đơn hàng
+                </th>
+                <th>
+                    Mã giỏ hàng
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HoTenKh)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NgaySinh)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DiaChi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Std)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GiayPhep)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TichDiem)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MatKhau)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LoaiKh)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdDonHangNavigation.IdDonHang)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdGioHangNavigation.IdGioHang)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-controller="KhachHangs" asp-route-id="@item.IdKh">Edit</a> |
+                        <a asp-action="Details" asp-controller="KhachHangs" asp-route-id="@item.IdKh">Details</a> |
+                        <a asp-action="Delete" asp-controller="KhachHangs" asp-route-id="@item.IdKh">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

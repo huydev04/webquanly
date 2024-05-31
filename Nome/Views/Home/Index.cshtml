@@ -1,0 +1,106 @@
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@model Nome.Recieve.HomeElements;
+@{
+    ViewData["Title"] = "Index";
+} 
+@{
+    var Request = HttpContextAccessor.HttpContext.Request;
+    int pageSize = 15; // Số sản phẩm trên mỗi trang
+    int totalProducts = Model.getDanhSachSanPham().Count();
+    int totalPages = (int)Math.Ceiling((double)totalProducts / pageSize);
+    int currentPage = 1; // Trang hiện tại
+
+    if (!string.IsNullOrEmpty(Request.Query["page"]))
+    {
+        currentPage = int.Parse(Request.Query["page"]);
+    }
+
+    var products = Model.getDanhSachSanPham().Skip((currentPage - 1) * pageSize).Take(pageSize);
+}
+@if (TempData["CartIsNull"] != null)
+{
+    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <strong class="me-auto">Thông Báo</strong>
+            <small>mới</small>
+            <button type="button" class="btn-close ms-2 mb-1" data-bs-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+        <div class="toast-body">
+            @TempData["CartIsNull"]
+        </div>
+    </div>
+}
+@if (TempData["OrderSuccess"] != null)
+{
+    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <strong class="me-auto">Thông Báo</strong>
+            <small>mới</small>
+            <button type="button" class="btn-close ms-2 mb-1" data-bs-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+        <div class="toast-body">
+            @TempData["OrderSuccess"]
+        </div>
+    </div>
+}
+<style>
+    .custom-card {
+        max-width: 300px;
+        max-height: 550px;
+    }
+
+</style>
+<div class="container">
+    <h1>Danh sách sản phẩm</h1>
+    <div class="row">
+        @foreach (var product in products)
+        {
+            long gia = Int64.Parse(product.Gia.ToString()) * 1000;
+            string real = gia.ToString("#,0");
+            <div class="col-md-4 mb-4">
+                <div class="card custom-card">
+                    <img src="~/SanPham/@product.HinhAnhThuoc" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.TenSanPham</h5>
+                        <p class="card-text">@product.NuocSx</p>
+                        <p class="card-text">Giá: @real</p>
+                        <form method="post" asp-controller="Cart" asp-action="AddToCart">
+                            <input type="hidden" value="@product.IdSanPham" asp-for="@Model.getItemOrder().Id"/>
+                            <div class="form-group">
+                                <label for="quantity">Số lượng:</label>
+                                <input type="number" class="form-control" value="1" min="1" asp-for="@Model.getItemOrder().SoLuong"/>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Thêm vào giỏ hàng</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            @if (currentPage > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="?page=@(currentPage - 1)">Trang trước</a>
+                </li>
+            }
+            @for (int i = 1; i <= totalPages; i++)
+            {
+                <li class="page-item @(currentPage == i ? "active" : "")">
+                    <a class="page-link" href="?page=@i">@i</a>
+                </li>
+            }
+            @if (currentPage < totalPages)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="?page=@(currentPage + 1)">Trang tiếp theo</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>

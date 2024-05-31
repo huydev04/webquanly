@@ -1,0 +1,91 @@
+﻿@model IEnumerable<Admin.Models.NhanVien>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Danh sách nhân viên</h1>
+
+<p>
+    <a asp-action="Create">Thêm tài khoản</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Họ và Tên
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Số Điện Thoại
+            </th>
+            <th>
+                Địa Chỉ
+            </th>
+            <th>
+                Mật Khẩu
+            </th>
+            <th>
+                ID Báo Cáo
+            </th>
+            <th>
+                Chức Vụ
+            </th>
+            <th>
+                Phiếu Nhập Hàng
+            </th>
+            <th>
+                Phiếu Xuất Hàng
+            </th>
+            <th>
+                Thông Báo
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HoTenNv)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sdt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DiaChi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MatKhau)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdBaoCaoNavigation.IdBaoCao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdChucVuNavigation.TenChucVu)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdPnhNavigation.IdPnh)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdPxhNavigation.IdPxh)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdThongBaoNavigation.IdThongBao)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdNv">Chỉnh sửa</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdNv">Chi tiết</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdNv">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

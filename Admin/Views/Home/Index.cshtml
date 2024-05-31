@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@if (TempData["OrderIsNull"] != null)
+{
+    <div id="message" style="display:none;">
+        @TempData["OrderIsNull"]
+    </div>
+    <script>
+        window.onload = function() {
+            var message = document.getElementById('message').innerText;
+            alert(message);
+        };
+    </script>
+}

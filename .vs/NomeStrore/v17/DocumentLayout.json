@@ -1,0 +1,393 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CNTT\\FileProject\\NomeStrore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\models\\webdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\models\\webdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|d:\\cntt\\fileproject\\nomestrore\\nome\\models\\webdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|solutionrelative:nome\\models\\webdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|d:\\cntt\\fileproject\\nomestrore\\nome\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|solutionrelative:nome\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|d:\\cntt\\fileproject\\nomestrore\\nome\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|solutionrelative:nome\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|d:\\cntt\\fileproject\\nomestrore\\nome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|solutionrelative:nome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|d:\\cntt\\fileproject\\nomestrore\\nome\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|solutionrelative:nome\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|d:\\cntt\\fileproject\\nomestrore\\nome\\processflow\\cartreadjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|solutionrelative:nome\\processflow\\cartreadjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\views\\donhang\\dondaduyet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\views\\donhang\\dondaduyet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\models\\state\\filemanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\models\\state\\filemanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|d:\\cntt\\fileproject\\nomestrore\\nome\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|solutionrelative:nome\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|d:\\cntt\\fileproject\\nomestrore\\nome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2A7E087-2857-4384-9B5F-040607BCB0C0}|Nome\\Nome.csproj|solutionrelative:nome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\views\\donhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\views\\donhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\models\\state\\stateorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\models\\state\\stateorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\controldata\\readjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\controldata\\readjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\controldata\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\controldata\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\controldata\\stateadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\controldata\\stateadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|d:\\cntt\\fileproject\\nomestrore\\admin\\models\\nhomthuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515C8DDE-36DA-4B53-B714-B109C6721772}|Admin\\Admin.csproj|solutionrelative:admin\\models\\nhomthuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 281,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 199,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebDataContext.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Models\\WebDataContext.cs",
+              "RelativeDocumentMoniker": "Admin\\Models\\WebDataContext.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Models\\WebDataContext.cs",
+              "RelativeToolTip": "Admin\\Models\\WebDataContext.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAA4wDAAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:13:00.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebDataContext.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\Models\\WebDataContext.cs",
+              "RelativeDocumentMoniker": "Nome\\Models\\WebDataContext.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\Models\\WebDataContext.cs",
+              "RelativeToolTip": "Nome\\Models\\WebDataContext.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAADwvy8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:11:56.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Nome\\appsettings.Development.json",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\appsettings.Development.json",
+              "RelativeToolTip": "Nome\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-22T07:11:50.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\appsettings.json",
+              "RelativeDocumentMoniker": "Nome\\appsettings.json",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\appsettings.json",
+              "RelativeToolTip": "Nome\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-21T08:36:53.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Nome\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Nome\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACQAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T08:33:34.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T08:33:34.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Views\\DonHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Views\\DonHang\\Index.cshtml",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Views\\DonHang\\Index.cshtml",
+              "RelativeToolTip": "Admin\\Views\\DonHang\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T08:33:34.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\Program.cs",
+              "RelativeDocumentMoniker": "Nome\\Program.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\Program.cs",
+              "RelativeToolTip": "Nome\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:33:34.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:33:34.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DonHangController.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Controllers\\DonHangController.cs",
+              "RelativeDocumentMoniker": "Admin\\Controllers\\DonHangController.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Controllers\\DonHangController.cs",
+              "RelativeToolTip": "Admin\\Controllers\\DonHangController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAtwEUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:33:34.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DonDaDuyet.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Views\\DonHang\\DonDaDuyet.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Views\\DonHang\\DonDaDuyet.cshtml",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Views\\DonHang\\DonDaDuyet.cshtml",
+              "RelativeToolTip": "Admin\\Views\\DonHang\\DonDaDuyet.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T08:33:34.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartReadJson.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\ProcessFlow\\CartReadJson.cs",
+              "RelativeDocumentMoniker": "Nome\\ProcessFlow\\CartReadJson.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\ProcessFlow\\CartReadJson.cs",
+              "RelativeToolTip": "Nome\\ProcessFlow\\CartReadJson.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:33:34.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAAGoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T08:33:34.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FileManagerViewModel.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Models\\State\\FileManagerViewModel.cs",
+              "RelativeDocumentMoniker": "Admin\\Models\\State\\FileManagerViewModel.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Models\\State\\FileManagerViewModel.cs",
+              "RelativeToolTip": "Admin\\Models\\State\\FileManagerViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:33:34.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Program.cs",
+              "RelativeDocumentMoniker": "Admin\\Program.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Program.cs",
+              "RelativeToolTip": "Admin\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:33:34.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Nome\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Nome\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAkwDEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:33:34.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Nome\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Nome\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T08:33:34.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReadJson.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\ControlData\\ReadJson.cs",
+              "RelativeDocumentMoniker": "Admin\\ControlData\\ReadJson.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\ControlData\\ReadJson.cs",
+              "RelativeToolTip": "Admin\\ControlData\\ReadJson.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAYwCgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:33:34.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\ControlData\\Report.cs",
+              "RelativeDocumentMoniker": "Admin\\ControlData\\Report.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\ControlData\\Report.cs",
+              "RelativeToolTip": "Admin\\ControlData\\Report.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAUwCQAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:33:34.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StateOrder.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Models\\State\\StateOrder.cs",
+              "RelativeDocumentMoniker": "Admin\\Models\\State\\StateOrder.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Models\\State\\StateOrder.cs",
+              "RelativeToolTip": "Admin\\Models\\State\\StateOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:33:34.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StateAdmin.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\ControlData\\StateAdmin.cs",
+              "RelativeDocumentMoniker": "Admin\\ControlData\\StateAdmin.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\ControlData\\StateAdmin.cs",
+              "RelativeToolTip": "Admin\\ControlData\\StateAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:33:34.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "Admin\\Models\\NhanVien.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Models\\NhanVien.cs",
+              "RelativeToolTip": "Admin\\Models\\NhanVien.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA7wBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:33:34.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NhomThuoc.cs",
+              "DocumentMoniker": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Models\\NhomThuoc.cs",
+              "RelativeDocumentMoniker": "Admin\\Models\\NhomThuoc.cs",
+              "ToolTip": "D:\\CNTT\\FileProject\\NomeStrore\\Admin\\Models\\NhomThuoc.cs",
+              "RelativeToolTip": "Admin\\Models\\NhomThuoc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:33:34.53Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

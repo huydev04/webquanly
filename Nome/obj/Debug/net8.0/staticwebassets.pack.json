@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Nome.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Nome.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Acetylcysteine Mekophar 200mg tan đàm trong bệnh lý hô hấp (10 vỉ x 10 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Acetylcysteine Mekophar 200mg tan đàm trong bệnh lý hô hấp (10 vỉ x 10 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Alpha Chymotrypsine Choay 21µkatals trị phù nề sau chấn thương (2 vỉ x 15 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Alpha Chymotrypsine Choay 21µkatals trị phù nề sau chấn thương (2 vỉ x 15 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Aspirin pH8 500mg giảm đau, kháng viêm, hạ sốt (20 vỉ x 10 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Aspirin pH8 500mg giảm đau, kháng viêm, hạ sốt (20 vỉ x 10 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Atorvastatin Domesco 20mg trị tăng cholesterol máu (2 vỉ x 10 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Atorvastatin Domesco 20mg trị tăng cholesterol máu (2 vỉ x 10 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Beatil 4mg_5mg trị tăng huyết áp, mạch vành (3 vỉ x 10 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Beatil 4mg_5mg trị tăng huyết áp, mạch vành (3 vỉ x 10 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Boganic Forte hỗ trợ trị bệnh lý gan mật, mỡ máu (5 vỉ x 10 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Boganic Forte hỗ trợ trị bệnh lý gan mật, mỡ máu (5 vỉ x 10 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Ciclevir 800 thuốc trị và phòng virus Herpes simplex (10 vỉ x 5 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Ciclevir 800 thuốc trị và phòng virus Herpes simplex (10 vỉ x 5 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Claminat IMP 625 trị nhiễm khuẩn (2 vỉ x 7 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Claminat IMP 625 trị nhiễm khuẩn (2 vỉ x 7 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Clarithromycin Stella 500mg trị nhiễm khuẩn (4 vỉ x 7 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Clarithromycin Stella 500mg trị nhiễm khuẩn (4 vỉ x 7 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Cồn 70 độ Bidophar chai 1000ml.jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Cồn 70 độ Bidophar chai 1000ml.jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Dung dịch nhỏ mắt, tai Ciprofloxacin 0.3% Bidiphar trị nhiễm khuẩn mắt, tai lọ 5ml.jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Dung dịch nhỏ mắt, tai Ciprofloxacin 0.3% Bidiphar trị nhiễm khuẩn mắt, tai lọ 5ml.jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Griseofulvin Mekophar 500mg trị nấm da, tóc và móng (2 vỉ x 10 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Griseofulvin Mekophar 500mg trị nấm da, tóc và móng (2 vỉ x 10 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Hapacol Blue 500mg giảm đau, hạ sốt (10 vỉ x 10 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Hapacol Blue 500mg giảm đau, hạ sốt (10 vỉ x 10 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Hỗn dịch uống Enterogermina 4 tỷ_5ml trị, phòng ngừa rối loạn tiêu hóa (20 ống x 5ml).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Hỗn dịch uống Enterogermina 4 tỷ_5ml trị, phòng ngừa rối loạn tiêu hóa (20 ống x 5ml).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Ibumed 400 giảm đau, hạ sốt, kháng viêm (10 vỉ x 10 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Ibumed 400 giảm đau, hạ sốt, kháng viêm (10 vỉ x 10 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Marvelon thuốc tránh thai hằng ngày (1 vỉ x 21 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Marvelon thuốc tránh thai hằng ngày (1 vỉ x 21 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Omeprazol DHG 20mg trị trào ngược dạ dày, thực quản (3 vỉ x 10 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Omeprazol DHG 20mg trị trào ngược dạ dày, thực quản (3 vỉ x 10 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Orgametril 5mg trị đa kinh, rong kinh (1 vỉ x 30 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Orgametril 5mg trị đa kinh, rong kinh (1 vỉ x 30 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Penicilin V Kali Vidiphar điều trị nhiễm khuẩn đường hô hấp trên (100 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Penicilin V Kali Vidiphar điều trị nhiễm khuẩn đường hô hấp trên (100 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Pharmaton Energy bổ sung năng lượng chai 30 viên.jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Pharmaton Energy bổ sung năng lượng chai 30 viên.jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Piracetam Stada 800mg trị chóng mặt, giật rung cơ (3 vỉ x 15 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Piracetam Stada 800mg trị chóng mặt, giật rung cơ (3 vỉ x 15 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Rowatinex phòng và trị sỏi niệu, sỏi thận (10 vỉ x 10 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Rowatinex phòng và trị sỏi niệu, sỏi thận (10 vỉ x 10 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\SanPham\\Viên nhai Fugacar vị sô cô la 500mg trị giun đường ruột (1 vỉ x 1 viên).jpg",
+      "PackagePath": "staticwebassets\\SanPham\\Viên nhai Fugacar vị sô cô la 500mg trị giun đường ruột (1 vỉ x 1 viên).jpg"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\Theme\\login.css",
+      "PackagePath": "staticwebassets\\Theme\\login.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\CNTT\\FileProject\\NomeStrore\\Nome\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Nome.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Nome.props",
+      "PackagePath": "build\\Nome.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Nome.props",
+      "PackagePath": "buildMultiTargeting\\Nome.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Nome.props",
+      "PackagePath": "buildTransitive\\Nome.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

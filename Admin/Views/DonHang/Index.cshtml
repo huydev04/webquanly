@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Admin.Models.DonHang>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Mục lục</h1>
+
+<p>
+    <a asp-action="Create">Tạo mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Ngày đặt hàng
+            </th>
+            <th>
+                Địa chỉ nhận hàng
+            </th>
+            <th>
+                Sản phẩm đặt
+            </th>
+            <th>
+                Chiết khấu
+            </th>
+            <th>
+                Tổng đơn hàng
+            </th>
+            <th>
+                Hình thức thanh toán
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgayTaoDonHang)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DiaChiNhanHang)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DsSanPham)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Chietkhau)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ThanhTien)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdPttt)
+                </td>
+                <td>
+                    <a asp-action="AcceptOrder" asp-route-id="@item.IdDonHang">Duyệt đơn hàng</a> |
+                    <a asp-action="SeeOrder" asp-controller="DonHang" asp-route-id="@item.IdDonHang">Xem Đơn hàng</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdDonHang">Huỷ đơn hàng</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

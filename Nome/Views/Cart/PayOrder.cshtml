@@ -1,0 +1,172 @@
+﻿@model Nome.Recieve.HomeElements
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+    decimal count = 0;
+    foreach (var i in Model.getCart())
+    {
+        count += i.SoLuong * i.Gia ?? 0;
+    }
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+    }
+
+    .container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    button[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    /* Đã có code CSS từ trước */
+
+    /* Thêm đoạn CSS sau để tạo khoảng cách giữa các phần tử */
+    select, input[type="text"] {
+        margin-bottom: 10px;
+    }
+
+
+</style>
+
+<div class="container">
+    <h1>Thanh toán</h1>
+    <form action="PayOrder" method="POST">
+        <div class="form-group">
+            <label for="payment-method">Chọn phương thức thanh toán:</label>
+            <select id="payment-method" asp-for=@Model.orderView.Id_PTTT>
+                <option value="momo">MoMo</option>
+                <option value="bank">Ngân hàng</option>
+                <option value="tm">Nhận hàng rồi thanh toán</option>
+            </select>
+        </div>
+        <div class="form-group" id="qr-code-momo" style="display: none;">
+            <label for="momo-qr">Mã QR MoMo:</label>
+            <img id="momo-qr" src="momo-qr-code.png" alt="MoMo QR Code">
+        </div>
+        <div class="form-group" id="bank-info" style="display: none;">
+            <label for="bank-info">Thông tin ngân hàng:</label>
+            <p>Số tài khoản: 123456789</p>
+            <p>Chi nhánh: ABC Bank</p>
+        </div>
+        <div class="form-group" id="cash-on-delivery" style="display: none;">
+            <label for="cash-on-delivery">Thanh toán khi nhận hàng:</label>
+            <p>Vui lòng chuẩn bị tiền mặt khi nhận hàng</p>
+        </div>
+        <div class="form-group">
+            <label for="shipping-address">Địa chỉ nhận hàng:</label>
+            <select id="shipping-address" asp-for=@Model.orderView.DiaChi>
+                <option value="@Model.getKhachHangInfo().DiaChi" selected>@Model.getKhachHangInfo().DiaChi</option>
+                <option value="">Nhập địa chỉ khác</option>
+            </select>
+        </div>
+        
+        <div class="form-group other-address" style="display:none;">
+            <label for="other-address">Địa chỉ khác:</label>
+            <input type="text" id="other-address" asp-for=@Model.orderView.DiaChi placeholder="Nhập địa chỉ khác">
+        </div>
+
+        <div class="form-group">
+            <label for="total-amount">Tổng số tiền:</label>
+            <input type="text" id="total-amount" asp-for=@Model.orderView.ThanhTien value="@count" readonly>
+        </div>
+        <button type="submit">Thanh toán</button>
+    </form>
+</div>
+
+<script>
+    document.getElementById('shipping-address').addEventListener('change', function() {
+        var otherAddress = document.querySelector('.other-address');
+        if (this.value === 'other') {
+            otherAddress.style.display = 'block';
+        } else {
+            otherAddress.style.display = 'none';
+        }
+    });
+</script>
+<script>
+    document.getElementById('payment-method').addEventListener('change', function () {
+        var selectedValue = this.value;
+        var qrCodeMoMo = document.getElementById('qr-code-momo');
+        var bankInfo = document.getElementById('bank-info');
+        var cashOnDelivery = document.getElementById('cash-on-delivery');
+
+        if (selectedValue === 'momo') {
+            qrCodeMoMo.style.display = 'block';
+            bankInfo.style.display = 'none';
+            cashOnDelivery.style.display = 'none';
+        } else if (selectedValue === 'bank') {
+            qrCodeMoMo.style.display = 'none';
+            bankInfo.style.display = 'block';
+            cashOnDelivery.style.display = 'none';
+        } else if (selectedValue === 'cash-on-delivery') {
+            qrCodeMoMo.style.display = 'none';
+            bankInfo.style.display = 'none';
+            cashOnDelivery.style.display = 'block';
+        } else {
+            qrCodeMoMo.style.display = 'none';
+            bankInfo.style.display = 'none';
+            cashOnDelivery.style.display = 'none';
+        }
+    });
+    document.getElementById('shipping-address').addEventListener('change', function () {
+        var otherAddress = document.querySelector('.other-address');
+        var shippingAddress = document.getElementById('shipping-address');
+        if (shippingAddress.value === '') {
+            otherAddress.style.display = 'block';
+        } else {
+            otherAddress.style.display = 'none';
+        }
+    });
+    document.getElementById('other-address').addEventListener('input', function () {
+        var otherAddressValue = this.value;
+        var shippingAddress = document.getElementById('shipping-address');
+        if (otherAddressValue !== '') {
+            shippingAddress.value = otherAddressValue;
+        }
+    });
+</script>

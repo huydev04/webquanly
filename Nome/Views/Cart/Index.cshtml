@@ -1,0 +1,52 @@
+﻿@model Nome.Recieve.HomeElements
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    decimal count = 0;
+    foreach (var i in Model.getCart())
+    {
+        count += i.SoLuong * i.Gia ?? 0;
+    }
+    string ThanhTien = $"{@count:0}";
+}
+<style>
+    .right-align {
+        text-align: right; /* Căn phải cho các ô có class 'right-align' */
+    }
+</style>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Tên Sản Phẩm</th>
+            <th scope="col">Hình sản phẩm</th>
+            <th scope="col">Số lượng</th>
+            <th scope="col">Giá</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var i in Model.getCart())
+        {
+            string real = $"{i.Gia:N0}";
+            <tr>
+            <th scope="row">@i.TenSanPham</th>
+            <td><img src="~/SanPham/@i.HinhAnhSP" class="img-thumbnail" alt="..." width="300" height="300"></td>
+            <td>@i.SoLuong</td>
+            <td>@real</td>
+            <td>
+                    <a asp-action="DeleteOrderItem" asp-controller="Cart" asp-route-id="@i.Id"><button type="button" class="btn btn-danger">Xoá</button></a>
+            </td>
+        </tr>
+        }
+        <tr>
+            <td class="right-align">Tổng</td>
+            
+            <td class="right-align">@ThanhTien</td>
+            <td>
+                <a asp-action="PayOrder" aspt-asp-controller="Cart">
+                <button type="button" class="btn btn-success">Thanh toán</button>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
